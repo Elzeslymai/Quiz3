@@ -1,0 +1,28 @@
+{
+  "name": "quiz2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elzeslymai/Quiz2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elzeslymai/Quiz2/issues"
+  },
+  "homepage": "https://github.com/Elzeslymai/Quiz2#readme",
+  "dependencies": {
+    "axion": "^0.1.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "mongodb": "^2.2.33",
+    "path": "^0.12.7"
+  }
+}
