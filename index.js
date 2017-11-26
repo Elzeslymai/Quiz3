@@ -40,9 +40,6 @@ app.get('/searchbyrole', function(req, res){
     res.sendFile(path.join(__dirname + "/views/role.html"));
 })
 
-app.get('/', function (req, res) {
-    res.render('index.hbs');
-});
 
 app.get('/users/searchname', function (req, res) {
     res.render('searchname.hbs');
